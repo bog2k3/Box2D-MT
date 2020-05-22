@@ -6,7 +6,6 @@ cmake_minimum_required(VERSION 2.8)
 
 project(Box2D)
 # Set the output folder where your program will be created
-set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/build)
 set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/dist/lib)
 
 # The following folder will be included
